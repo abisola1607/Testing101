@@ -1,0 +1,100 @@
+/* Css Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+
+.testimonials-container {
+  max-width: 1200px;
+  height: 800;
+
+  margin: 0 auto;
+  padding: 0px 30px 80px 30px;
+  text-align: center;
+  background-color: rgb(247, 247, 250)
+  
+}
+
+.testimonials-container h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* This creates space between the cards */
+}
+
+.testimonial {
+  flex-basis: calc(33.333% - 20px); /* Subtracts the gap from the width */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 170px;
+  background-color: white;
+  margin-top: 0%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+
+.icon {
+  width:  80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  margin-right: 8px;
+  border: 0.25px solid #e6ebf4;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.username {
+  font-weight: bold;
+  color: #3eaafc;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  margin-left: 2px;
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    flex-direction: column;
+  }
+
+  .testimonial {
+    flex-basis: 100%;
+  }
+}
+
+
+.tomi {
+  text-align: left;
+  padding-left: 50px;
+  
+  padding-bottom: 0px;
+  margin-left: 50px;
+  margin-top: 0px;
+  color: #7c8a94
+}
+
+h2 {text-align: left;
+  padding-top: 40px;
+  
+
+}
+
+.justin {
+  margin-left: 15px;
+  font-size: medium;
+  margin-top: 0px;
+  color: #7c8a94
+  
+}

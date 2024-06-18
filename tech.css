@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.techycontainer {
+    height:310px;
+    background-color: #CBCAC8;
+    
+
+  }
+.agbacontain {
+
+    height:200px;
+    align-items: center;    
+      
+}
+
+.nogree {
+  height:200px;
+  display: flex;
+  margin-top: 0;
+  padding-top: 70px;
+  
+
+}
+
+  .faceshow {
+    height:70px;
+    margin-left: 50px;
+    color:#384A62;
+    font-size: large;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 70px;
+
+  }
+  .divgang {
+    height:100px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    
+    
+      }
+    .divgang a {
+      color:#384A62;
+      }
+.divgang img {
+  padding-bottom: 10px;      
+
+}

@@ -1,0 +1,31 @@
+/* Css Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+ 
+.footerdiv {
+  
+
+  height: 100px;
+  background-color: rgb(203, 202, 200);
+  align-content: center;
+
+  }
+
+.styling {
+    border-width: 20px;
+  color:rgb(71, 68, 68);
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: center;
+  
+  
+
+  
+}
+
+  

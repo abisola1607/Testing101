@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+.explain1 {
+  height: 600px;
+  background-color:rgb(236,232,217)
+  
+}
+.explain2 {
+    height: 70px;
+  display:inline-flex;
+  width: 100%;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: sticky;
+  top: 0px;
+    padding-top: 70px;
+
+  
+  
+
+}
+.explain2 img {
+  width: 140px;
+  height: 100px;
+  
+  
+}
+.explain3 {
+    height: 50px;
+  width:65%;
+  margin-left: 300px;
+    
+  }
+  .explain3 ul {
+    list-style: none;
+    display: inline-flex;
+    padding-top: 18px;
+    align-items: center;
+    gap: 20px;
+    color: rgb(67, 76, 76);
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.explain4 {
+  height:40px;
+  width: 250px;
+  display: inline-flex;
+  margin-left: 10px;
+ color: black;
+}
+
+.explain4  img{
+  width: 40px;
+  height: 40px;
+}
+.explain4 a{
+ text-decoration: none;
+font-family: 'Times New Roman', Times, serif;
+padding-right: 25px;
+padding-top: 7px;
+color:rgb(158, 76, 17);
+
+}
+
+.explain20 {
+    width:100%;
+  margin: left;
+  font-size: xx-large;
+  height: 100px;
+  color:#384a62;
+  
+  
+}
+
+.danjuma {
+   width:450px;
+  height:300px;
+  margin-top: 50px;
+  padding-top: 20px;
+ 
+}
+
+.favoir {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+.greatwork img{
+  width:400px;
+  height:300px;
+   
+}
+.sheepy {
+    width: 100%;
+  color: #6d7379;
+  font-size: small;
+}
+.cachy {
+  color:#353a3e ;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: large;
+  }
+.grossy {
+  border:2px;
+  width: 600px;
+  height: 80px;
+  background-color: white;
+  inherits: none;
+  
+}
+.greatwork {
+  display: flex;
+  height: 800;
+
+}

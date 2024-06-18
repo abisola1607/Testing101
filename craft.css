@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+.cranky{
+  border:2px solid blue;
+  height: 500px;
+  
+}
+
+.huggy {
+  border:2px solid red;
+  height: 70px;
+  width: 100%;
+  display: inline-flex;
+  margin-left: 50px;
+  
+}
+.huggy ul {
+  display:inline-flex;
+  list-style: none;
+  gap: 20px;
+  padding-left: 50px;
+  align-items: center;
+  justify-items: left; 
+}
+.huggy img {
+  width: 140px;
+  height: 100px;
+  padding-top: 0px;
+  align-items: center;
+  padding-bottom: 30px;
+  
+}
+
+.twist {
+  border: 2px solid green;
+  height: 300px;
+}
+
+.imaginary {
+  border: 2px solid black;
+  height: 50px;
+  width: 300px;
+  margin-left: 200px;
+}
